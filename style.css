@@ -57,7 +57,7 @@ body{
 #Do-List{
     position: absolute;
     left: 50%;
-    top: 55%;
+    top: 65%;
     transform: translate(-50%,-50%);
     margin-top: 12px;
     width: 500px;
@@ -70,7 +70,7 @@ body{
     margin: 5px auto;
     font-size: 45px;
     align-items: center;
-    padding: 19px;
+    padding:10px;
 }
 .to_do_container button{
     width: 30%;

@@ -25,18 +25,12 @@ addList.addEventListener('click', ()=>{
         
         inputObject.value = '';
     }
-    
-   
-   
-          
-  
-    
-    
-    
+ 
 })
 
 do_List.addEventListener('click', (e)=>{
     if(e.target.getAttribute('id') =='to-do-object'){
+        e.target.style.textDecoration="line-through";
         e.target.style.color="white";
         
     }
